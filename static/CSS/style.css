@@ -110,6 +110,9 @@ header .menu li a:hover{
 .galeria-videos .video-portada:hover a img{
     opacity: 1;
 }
+.galeria-videos .video-portada:active a img{
+    opacity: 1;
+}
 .galeria-videos .video-portada .info{
     position: absolute;
     left: 0;
@@ -128,6 +131,7 @@ header .menu li a:hover{
     text-align: center;
     font-family: 'PT Mono', monospace;
 }
+.galeria-videos .video-portada:active .info
 .galeria-fotos {
     max-width: 800px;
     margin: 0 auto;
