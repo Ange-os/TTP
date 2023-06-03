@@ -24,3 +24,15 @@ document.getElementById("btnEnviarWhatsApp").addEventListener("click", () => {
             // Abrir WhatsApp en una nueva pestaña
     window.open(url);
 })
+
+document.addEventListener('DOMContentLoaded', function() {
+    var videoPortada = document.querySelector('.galeria-videos .video-portada');
+    
+        videoPortada.addEventListener('touchstart', function() {
+        videoPortada.classList.add('hover');
+        });
+    
+        videoPortada.addEventListener('touchend', function() {
+        videoPortada.classList.remove('hover');
+        });
+    });
