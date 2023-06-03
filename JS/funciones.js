@@ -15,7 +15,7 @@ const btnwts = document.getElementById("btnEnviarWhatsApp")
     btnwts.addEventListener('click', function() {
         const mensaje = document.getElementById('mensaje')
 
-        let numero = "2664025070"; // Ingresa el número de teléfono aquí
+        let numero = "2664981776"; // Ingresa el número de teléfono aquí
         let texto = mensaje.value
 
                 // Generar el enlace de WhatsApp
